@@ -30,3 +30,7 @@ The included data provider use [ra-data-json-server](https://github.com/marmelab
 
 You'll find an `.env` file at the project root that includes a `VITE_JSON_SERVER_URL` variable. Set it to the URL of your backend. By default, we set it to targets [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
+## Lancer le Server de la base
+```sh 
+    npx json-server db.json --port 3002
+```

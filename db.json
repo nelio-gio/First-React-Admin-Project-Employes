@@ -35,6 +35,69 @@
       "department": "Finance",
       "salary": 2950,
       "active": true
+    },
+    {
+      "active": true,
+      "firstname": "Nelio",
+      "lastname": "Rakoto",
+      "email": "nelio@gmail.com",
+      "department": "Informatique",
+      "salary": 2500,
+      "id": 6
+    },
+    {
+      "active": false,
+      "firstname": "Clarc",
+      "lastname": "Olivier",
+      "email": "olivier@gmail.com",
+      "department": "Finance",
+      "salary": 3000,
+      "id": 7
+    },
+    {
+      "active": false,
+      "firstname": "Giovanni",
+      "lastname": "Rocques",
+      "email": "rocques@gmail.com",
+      "department": "Marketing",
+      "salary": 3500,
+      "id": 8
+    },
+    {
+      "active": true,
+      "firstname": "NyAina",
+      "lastname": "Jacob",
+      "email": "jacob@gmail.com",
+      "department": "RH",
+      "salary": 2100,
+      "id": 9
+    },
+    {
+      "active": false,
+      "firstname": "Ragnar",
+      "lastname": "Lothbrok",
+      "email": "lothbrok@gmail.com",
+      "department": "Finance",
+      "salary": 1600,
+      "id": 10
+    },
+    {
+      "active": true,
+      "firstname": "Ivar",
+      "lastname": "Desossé",
+      "email": "desosse@gmail.com",
+      "department": "Informatique",
+      "salary": 1900,
+      "id": 11
+    },
+    {
+      "active": false,
+      "firstname": "Emma",
+      "lastname": "Wattson",
+      "email": "wattson@gmail.com",
+      "department": "Informatique",
+      "salary": 2000,
+      "id": 12
     }
   ]
 }
