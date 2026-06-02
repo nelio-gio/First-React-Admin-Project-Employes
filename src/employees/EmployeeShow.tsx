@@ -1,14 +1,10 @@
 import {
-  Show,
-  SimpleShowLayout,
-  TextField,
-  NumberField,
-  BooleanField,
-  EmailField,
-  TopToolbar,
-  ListButton,
-  EditButton,
+  Show, SimpleShowLayout, TextField, NumberField,
+  BooleanField, EmailField, TopToolbar, ListButton, EditButton,
 } from 'react-admin';
+import { Divider } from '@mui/material';
+import { InternsByManager } from './InternsByManager';
+import { DepartmentStats  } from './DepartmentStats';
 
 const EmployeeShowActions = () => (
   <TopToolbar>
@@ -24,8 +20,20 @@ export const EmployeeShow = () => (
       <TextField   source="lastname"   label="Nom"         />
       <EmailField  source="email"      label="Email"       />
       <TextField   source="department" label="Département" />
-      <NumberField source="salary" label="Salaire" options={{ style: 'currency', currency: 'EUR' }} />
-      <BooleanField source="active"   label="Actif"       />
+      <NumberField
+        source="salary"
+        label="Salaire"
+        options={{ style: 'currency', currency: 'EUR' }}
+      />
+      <BooleanField source="active" label="Actif" />
+
+      <Divider sx={{ my: 2 }} />
+
+      <DepartmentStats />
+
+      <Divider sx={{ my: 2 }} />
+
+      <InternsByManager />
     </SimpleShowLayout>
   </Show>
 );
