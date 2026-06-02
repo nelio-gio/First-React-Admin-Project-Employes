@@ -1,14 +1,8 @@
 import {
-  List,
-  Datagrid,
-  TextField,
-  NumberField,
-  BooleanField,
-  SearchInput,
-  SelectInput,
-  EditButton,
-  DeleteButton,
+  List, Datagrid, TextField, NumberField, BooleanField,
+  SearchInput, SelectInput, EditButton, DeleteButton,
 } from 'react-admin';
+import { QuickStatusToggle } from './QuickStatusToggle';
 
 const employeeFilters = [
   <SearchInput source="q" alwaysOn />,
@@ -30,8 +24,13 @@ export const EmployeeList = () => (
       <TextField   source="lastname"   label="Nom"         />
       <TextField   source="email"      label="Email"       />
       <TextField   source="department" label="Département" />
-      <NumberField source="salary" label="Salaire" options={{ style: 'currency', currency: 'EUR' }} />
+      <NumberField
+        source="salary"
+        label="Salaire"
+        options={{ style: 'currency', currency: 'EUR' }}
+      />
       <BooleanField source="active" label="Actif" />
+      <QuickStatusToggle />
       <EditButton />
       <DeleteButton />
     </Datagrid>
