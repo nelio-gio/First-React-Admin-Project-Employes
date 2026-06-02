@@ -1,16 +1,297 @@
 {
   "employees": [
-    { "id": 1, "firstname": "Alice",  "lastname": "Martin",  "email": "alice@company.com",  "department": "Informatique", "salary": 2800, "active": true  },
-    { "id": 2, "firstname": "Bob",    "lastname": "Dupont",  "email": "bob@company.com",    "department": "Marketing",    "salary": 2500, "active": true  },
-    { "id": 3, "firstname": "Clara",  "lastname": "Nguyen",  "email": "clara@company.com",  "department": "RH",           "salary": 2600, "active": false },
-    { "id": 4, "firstname": "David",  "lastname": "Lemaire", "email": "david@company.com",  "department": "Finance",      "salary": 3100, "active": true  },
-    { "id": 5, "firstname": "Emma",   "lastname": "Bernard", "email": "emma@company.com",   "department": "Informatique", "salary": 2950, "active": true  }
+    {
+      "id": 1,
+      "firstname": "Alice",
+      "lastname": "Martin",
+      "email": "alice@company.com",
+      "department": "Informatique",
+      "salary": 2800,
+      "active": true
+    },
+    {
+      "id": 2,
+      "firstname": "Bob",
+      "lastname": "Dupont",
+      "email": "bob@company.com",
+      "department": "Marketing",
+      "salary": 2500,
+      "active": true
+    },
+    {
+      "id": 3,
+      "firstname": "Clara",
+      "lastname": "Nguyen",
+      "email": "clara@company.com",
+      "department": "RH",
+      "salary": 2600,
+      "active": false
+    },
+    {
+      "id": 4,
+      "firstname": "David",
+      "lastname": "Lemaire",
+      "email": "david@company.com",
+      "department": "Finance",
+      "salary": 3100,
+      "active": true
+    },
+    {
+      "id": 6,
+      "firstname": "Felix",
+      "lastname": "Garnier",
+      "email": "felix@company.com",
+      "department": "Informatique",
+      "salary": 3200,
+      "active": true
+    },
+    {
+      "active": true,
+      "id": 7,
+      "firstname": "Nelio",
+      "lastname": "Giovanni",
+      "email": "giovanni@gmail.com",
+      "department": "RH",
+      "salary": 2000
+    },
+    {
+      "id": 8,
+      "firstname": "Nina",
+      "lastname": "Leroy",
+      "email": "nina@company.com",
+      "department": "Marketing",
+      "salary": 2700,
+      "active": true
+    },
+    {
+      "id": 9,
+      "firstname": "Oscar",
+      "lastname": "Blanc",
+      "email": "oscar@company.com",
+      "department": "Marketing",
+      "salary": 2400,
+      "active": false
+    },
+    {
+      "id": 10,
+      "firstname": "Paul",
+      "lastname": "Durand",
+      "email": "paul@company.com",
+      "department": "RH",
+      "salary": 2800,
+      "active": true
+    },
+    {
+      "id": 11,
+      "firstname": "Rachel",
+      "lastname": "Fontaine",
+      "email": "rachel@company.com",
+      "department": "RH",
+      "salary": 2650,
+      "active": true
+    },
+    {
+      "id": 12,
+      "firstname": "Sarah",
+      "lastname": "Petit",
+      "email": "sarah@company.com",
+      "department": "Finance",
+      "salary": 3000,
+      "active": true
+    },
+    {
+      "id": 13,
+      "firstname": "Thomas",
+      "lastname": "Girard",
+      "email": "thomas@company.com",
+      "department": "Finance",
+      "salary": 2900,
+      "active": false
+    },
+    {
+      "id": 14,
+      "firstname": "Vincent",
+      "lastname": "Mercier",
+      "email": "vincent@company.com",
+      "department": "Finance",
+      "salary": 3300,
+      "active": true
+    },
+    {
+      "id": 15,
+      "firstname": "Yasmine",
+      "lastname": "Benali",
+      "email": "yasmine@company.com",
+      "department": "Marketing",
+      "salary": 2600,
+      "active": true
+    }
   ],
   "interns": [
-    { "id": 1, "firstname": "Julien", "lastname": "Moreau", "email": "julien@company.com", "department": "Informatique", "managerId": 1, "isRemunerate": true,  "remuneration": 800, "startDate": "2024-01-15" },
-    { "id": 2, "firstname": "Sophie", "lastname": "Blanc",  "email": "sophie@company.com", "department": "Marketing",    "managerId": 2, "isRemunerate": true,  "remuneration": 700, "startDate": "2024-02-01" },
-    { "id": 3, "firstname": "Thomas", "lastname": "Petit",  "email": "thomas@company.com", "department": "Finance",      "managerId": 4, "isRemunerate": false, "remuneration": 0,   "startDate": "2024-03-10" },
-    { "id": 4, "firstname": "Laura",  "lastname": "Simon",  "email": "laura@company.com",  "department": "Informatique", "managerId": 5, "isRemunerate": true,  "remuneration": 850, "startDate": "2024-01-20" },
-    { "id": 5, "firstname": "Marc",   "lastname": "Dubois", "email": "marc@company.com",   "department": "Marketing",    "managerId": 2, "isRemunerate": false, "remuneration": 0,   "startDate": "2024-04-05" }
+    {
+      "id": 1,
+      "firstname": "Julien",
+      "lastname": "Moreau",
+      "email": "julien@company.com",
+      "department": "Informatique",
+      "managerId": 1,
+      "isRemunerate": true,
+      "remuneration": 800,
+      "startDate": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "firstname": "Sophie",
+      "lastname": "Blanc",
+      "email": "sophie@company.com",
+      "department": "Informatique",
+      "managerId": 1,
+      "isRemunerate": true,
+      "remuneration": 750,
+      "startDate": "2024-02-01"
+    },
+    {
+      "id": 3,
+      "firstname": "Karim",
+      "lastname": "Bensaid",
+      "email": "karim@company.com",
+      "department": "Informatique",
+      "managerId": 1,
+      "isRemunerate": false,
+      "remuneration": 0,
+      "startDate": "2024-03-10"
+    },
+    {
+      "id": 4,
+      "firstname": "Lea",
+      "lastname": "Martin",
+      "email": "lea@company.com",
+      "department": "Marketing",
+      "managerId": 2,
+      "isRemunerate": true,
+      "remuneration": 700,
+      "startDate": "2024-01-20"
+    },
+    {
+      "id": 5,
+      "firstname": "Antoine",
+      "lastname": "Perret",
+      "email": "antoine@company.com",
+      "department": "Marketing",
+      "managerId": 2,
+      "isRemunerate": false,
+      "remuneration": 0,
+      "startDate": "2024-04-05"
+    },
+    {
+      "id": 6,
+      "firstname": "Marine",
+      "lastname": "Dubois",
+      "email": "marine@company.com",
+      "department": "Finance",
+      "managerId": 4,
+      "isRemunerate": true,
+      "remuneration": 900,
+      "startDate": "2024-02-15"
+    },
+    {
+      "id": 7,
+      "firstname": "Romain",
+      "lastname": "Faure",
+      "email": "romain@company.com",
+      "department": "Finance",
+      "managerId": 4,
+      "isRemunerate": true,
+      "remuneration": 850,
+      "startDate": "2024-03-01"
+    },
+    {
+      "id": 8,
+      "firstname": "Chloe",
+      "lastname": "Simon",
+      "email": "chloe@company.com",
+      "department": "Marketing",
+      "managerId": 8,
+      "isRemunerate": false,
+      "remuneration": 0,
+      "startDate": "2024-01-10"
+    },
+    {
+      "id": 9,
+      "firstname": "Hugo",
+      "lastname": "Laurent",
+      "email": "hugo@company.com",
+      "department": "Marketing",
+      "managerId": 8,
+      "isRemunerate": true,
+      "remuneration": 720,
+      "startDate": "2024-05-01"
+    },
+    {
+      "id": 10,
+      "firstname": "Ines",
+      "lastname": "Rousseau",
+      "email": "ines@company.com",
+      "department": "Marketing",
+      "managerId": 8,
+      "isRemunerate": false,
+      "remuneration": 0,
+      "startDate": "2024-05-15"
+    },
+    {
+      "id": 11,
+      "firstname": "Maxime",
+      "lastname": "Girard",
+      "email": "maxime@company.com",
+      "department": "RH",
+      "managerId": 10,
+      "isRemunerate": true,
+      "remuneration": 680,
+      "startDate": "2024-02-20"
+    },
+    {
+      "id": 12,
+      "firstname": "Amandine",
+      "lastname": "Petit",
+      "email": "amandine@company.com",
+      "department": "RH",
+      "managerId": 11,
+      "isRemunerate": false,
+      "remuneration": 0,
+      "startDate": "2024-03-25"
+    },
+    {
+      "id": 13,
+      "firstname": "Baptiste",
+      "lastname": "Chevalier",
+      "email": "baptiste@company.com",
+      "department": "Finance",
+      "managerId": 12,
+      "isRemunerate": true,
+      "remuneration": 950,
+      "startDate": "2024-01-08"
+    },
+    {
+      "id": 14,
+      "firstname": "Lucie",
+      "lastname": "Bernard",
+      "email": "lucie@company.com",
+      "department": "Finance",
+      "managerId": 12,
+      "isRemunerate": true,
+      "remuneration": 880,
+      "startDate": "2024-04-12"
+    },
+    {
+      "id": 15,
+      "firstname": "Nathan",
+      "lastname": "Dupont",
+      "email": "nathan@company.com",
+      "department": "Finance",
+      "managerId": 14,
+      "isRemunerate": false,
+      "remuneration": 0,
+      "startDate": "2024-06-01"
+    }
   ]
 }
