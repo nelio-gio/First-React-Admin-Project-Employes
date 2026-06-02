@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {
-  List, .Datagrid, TextField, NumberField, BooleanField,
+  List, Datagrid, TextField, NumberField, BooleanField,
   ReferenceField, SelectInput, BooleanInput,
   EditButton, DeleteButton, TopToolbar, CreateButton,
   useCreate, useRefresh,
@@ -93,7 +93,6 @@ const QuickAddIntern = () => {
   );
 };
 
-// ─── Barre d'actions de la liste ───────────────────────────────────────────
 
 const InternListActions = () => (
   <TopToolbar>
@@ -102,7 +101,6 @@ const InternListActions = () => (
   </TopToolbar>
 );
 
-// ─── Filtres ───────────────────────────────────────────────────────────────
 
 const departmentChoices = [
   { id: 'Informatique', name: 'Informatique' },
@@ -116,7 +114,6 @@ const internFilters = [
   <BooleanInput source="isRemunerate" label="Rémunéré" />,
 ];
 
-// ─── Liste principale ──────────────────────────────────────────────────────
 
 export const InternList = () => (
   <List filters={internFilters} actions={<InternListActions />} perPage={5}>
@@ -126,7 +123,6 @@ export const InternList = () => (
       <TextField source="email"      label="Email"       />
       <TextField source="department" label="Département" />
 
-      {/* ReferenceField : résout managerId → appel GET /employees/:id */}
       <ReferenceField source="managerId" reference="employees" label="Manager">
         <TextField source="firstname" />{' '}
         <TextField source="lastname"  />
