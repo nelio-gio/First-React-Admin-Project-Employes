@@ -19,15 +19,6 @@
       "active": true
     },
     {
-      "id": 3,
-      "firstname": "Clara",
-      "lastname": "Nguyen",
-      "email": "clara@company.com",
-      "department": "RH",
-      "salary": 2600,
-      "active": false
-    },
-    {
       "id": 4,
       "firstname": "David",
       "lastname": "Lemaire",
